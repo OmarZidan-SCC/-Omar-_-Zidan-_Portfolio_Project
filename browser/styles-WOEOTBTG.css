@@ -1,0 +1,1 @@
+body{margin:0;font-family:sans-serif;background-color:#f4f4f4}main{padding:2rem;min-height:calc(100vh - 120px)}.about-card,.project-card,.contact-card{background:#fff;border:1px solid #ddd;padding:1.5rem;border-radius:5px;margin-bottom:1.5rem}@media(max-width:768px){.home-container,.about-grid{flex-direction:column}}
