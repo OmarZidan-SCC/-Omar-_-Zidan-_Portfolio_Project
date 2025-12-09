@@ -1,0 +1,11 @@
+<h2>My Projects</h2>
+<div class="projects-container">
+
+  <div class="project-card" *ngFor="let project of projectList">
+    <h3>{{ project.title }}</h3>
+    <img [src]="project.imageUrl" [alt]="project.title">
+    <p>{{ project.description }}</p>
+    <p><strong>Technologies:</strong> {{ project.technologies }}</p>
+  </div>
+
+</div>

@@ -1,0 +1,9 @@
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.about-grid > div {
+  flex-basis: 400px;
+  flex-grow: 1;
+}
